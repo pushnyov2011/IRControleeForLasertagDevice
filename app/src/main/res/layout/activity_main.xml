@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/redTeam"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_x="31dp"
+            android:layout_y="46dp"
+            android:text="R"
+            android:textColorLink="#FA7474"
+            app:strokeColor="#ED5D5D" />
+
+        <Button
+            android:id="@+id/blueTeam"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_x="114dp"
+            android:layout_y="46dp"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/greenTeam"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_x="195dp"
+            android:layout_y="46dp"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/yellowTeam"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_x="280dp"
+            android:layout_y="48dp"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_x="42dp"
+            android:layout_y="124dp"
+            android:text="новая игра" />
+
+        <Button
+            android:id="@+id/Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_x="109dp"
+            android:layout_y="574dp"
+            android:text="Пауза/Снять с паузы" />
+
+        <Button
+            android:id="@+id/testSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_x="212dp"
+            android:layout_y="354dp"
+            android:text="Тест повязки" />
+
+        <Button
+            android:id="@+id/shootPower"
+            android:layout_width="170dp"
+            android:layout_height="63dp"
+            android:layout_x="180dp"
+            android:layout_y="121dp"
+            android:text="Мощность выстрела 50/100" />
+
+        <Button
+            android:id="@+id/killPlayer"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="43dp"
+            android:layout_y="205dp"
+            android:text="Убить игрока" />
+
+        <Button
+            android:id="@+id/addAmmo"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="213dp"
+            android:layout_y="288dp"
+            android:text="Пополнить боезопас" />
+
+        <Button
+            android:id="@+id/blowUpPlayer"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="59dp"
+            android:layout_y="294dp"
+            android:text="взорвать игрока" />
+
+        <Button
+            android:id="@+id/stunPlayer"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="65dp"
+            android:layout_y="364dp"
+            android:text="оглушить игрока" />
+
+        <Button
+            android:id="@+id/respawn"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="59dp"
+            android:layout_y="432dp"
+            android:text="оживить игрока" />
+
+        <Button
+            android:id="@+id/fullHealth"
+            android:layout_width="127dp"
+            android:layout_height="58dp"
+            android:layout_x="220dp"
+            android:layout_y="435dp"
+            android:text="вылечить игрока" />
+
+        <Button
+            android:id="@+id/changeColor"
+            android:layout_width="170dp"
+            android:layout_height="78dp"
+            android:layout_x="190dp"
+            android:layout_y="195dp"
+            android:text="сменить цвет красный/синий" />
+    </AbsoluteLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
